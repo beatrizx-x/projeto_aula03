@@ -1,0 +1,78 @@
+/* Reset e base */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #e6c07a;
+    background-color: #f8fafc;
+  }
+
+.hero{
+    height: 50vh; /*altura da tela*/
+    background-image: url(/img.jpg/homem1cortado.jpg);
+    background-size: cover;
+    filter: blur(100%) ; /*não esta funcionando, tenho que arrumar*/
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+header h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    font-family: sans-serif
+
+  }
+  nav {
+    background-color: #777777;
+    padding: 10px 16px;
+    text-align: center;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background .2s;
+  }
+  nav a:hover {
+    background: rgba(255,255,255,.15);
+  }
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  section { margin-bottom: 20px; }
+
+  h2 {
+
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    color: #e6c07a;
+    padding-left: 12px;
+    margin-bottom: 12px;
+  }
+  
+  figure{
+    display:inline-block;
+    margin: 10px;
+    
+  }
+
+  
