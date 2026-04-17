@@ -18,7 +18,7 @@ body {
   height: 50vh; /*altura da tela*/
   background-image: url("/img.jpg/homem1cortado.jpg");
   background-size: cover;
-  filter: blur(100%); /*não esta funcionando, tenho que arrumar*/
+  filter: blur(10px); /*não esta funcionando, tenho que arrumar*/
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
